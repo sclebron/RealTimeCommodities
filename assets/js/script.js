@@ -210,7 +210,7 @@ function newsApi2(q, from) {
 
         var buttonEl = $("<a>");
         buttonEl.attr("class", "btn btn-primary");
-        buttonEl.attr("href", newsData.link);
+        buttonEl.attr("href", "_blank", newsData.link);
         buttonEl.text("Link");
         newsEl.append(buttonEl);
 
