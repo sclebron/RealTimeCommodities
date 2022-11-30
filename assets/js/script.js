@@ -203,10 +203,10 @@ function newsApi2(q, from) {
         titleEl.text(newsData.title);
         newsEl.append(titleEl);
 
-        var textEL = $("<p>");
-        textEL.attr("class", "card-text");
-        textEL.text(newsData.description);
-        newsEl.append(textEL);
+        // var textEL = $("<p>");
+        // textEL.attr("class", "card-text");
+        // textEL.text(newsData.description);
+        // newsEl.append(textEL);
 
         var buttonEl = $("<a>");
         buttonEl.attr("class", "btn btn-primary");
