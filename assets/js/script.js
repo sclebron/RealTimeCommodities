@@ -196,7 +196,7 @@ function newsApi2(q, from) {
           // if image_url exist, then we're giving the newsData a source
           imageEl.attr("src", newsData.image_url);
         }
-        newsEl.attr("style", "width: 18rem");
+        newsEl.attr("style", "width: 25rem");
         newsEl.append(imageEl);
         var titleEl = $("<h5>");
         titleEl.attr("class", "card-title");
