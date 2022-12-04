@@ -177,9 +177,10 @@ function newsApi2(q, from) {
       console.log(data.results);
       let array = data.results;
       var article = $("#news");
-      for (let index = 0; index < 10; index++) {
+      for (let index = 0; index < 3; index++) {
         const newsData = array[index];
         //add code so that two cards show up and you scroll to view more
+        
 
         // console.log(newsData.title);
         // console.log(news);
