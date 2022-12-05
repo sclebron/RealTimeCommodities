@@ -49,9 +49,9 @@ nav {
   color: #f9f5eb;
 }
 
-@media screen and (max-width: 400) {
+@media screen and (max-width: 768px) {
   .header {
-    
+    width: 100%;
   }
 }
 
