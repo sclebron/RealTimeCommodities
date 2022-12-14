@@ -179,7 +179,8 @@ function newsApi2(q, from) {
       var article = $("#news");
       for (let index = 0; index < 10; index++) {
         const newsData = array[index];
-        //add code so that two cards show up and you scroll to view more
+        //add code so that two cards show up and you scroll to view more -> trigger event after hovering
+        
         
 
         // console.log(newsData.title);
