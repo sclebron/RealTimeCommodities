@@ -180,26 +180,7 @@ function newsApi2(q, from) {
       for (let index = 0; index < 10; index++) {
         const newsData = array[index];
         //add code so that two cards show up and you scroll to view more
-
-// This adds too the dropDown menu.
-let listEl = $('#news');
-for(let index in acceptable){
-    /*
-              <li>
-                <a class="dropdown-item" id="gold" href="#">Gold</a>
-              </li>
-    */
-              //<ul class="dropdown-menu" id="com-dropdown">
-    let newDropEl = $('<li>');
-    let dropAEl = $('<a>');
-    dropAEl.attr('class','dropdown-item');
-    dropAEl.attr('id',acceptable[index]);
-    dropAEl.attr('href','#');
-    dropAEl.text( acceptable[index]);
-    newDropEl.append(dropAEl);
-    listEl.append(newDropEl);
-    
-}        
+             
         
 
         // console.log(newsData.title);
