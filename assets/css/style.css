@@ -49,6 +49,7 @@ nav {
   color: #f9f5eb;
 }
 
+/* lines 53-61 scrollbar copied from bootstrap */
 .my-custom-scrollbar {
   position: relative;
   height: 200px;
