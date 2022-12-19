@@ -51,7 +51,7 @@ nav {
 
 .my-custom-scrollbar {
   position: relative;
-  height: 20%;
+  height: 650px;
   overflow: auto;
 }
 
