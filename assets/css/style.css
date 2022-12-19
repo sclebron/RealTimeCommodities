@@ -52,7 +52,7 @@ nav {
 /* lines 53-61 scrollbar copied from bootstrap -> next step fix styling for this */
 .my-custom-scrollbar {
   position: relative;
-  height: 50%;
+  height: 20%;
   overflow: auto;
 }
 
