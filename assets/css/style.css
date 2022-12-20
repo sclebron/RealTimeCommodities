@@ -49,8 +49,8 @@ nav {
   color: #f9f5eb;
 }
 
-StoredButtons:hover {
-  
+#StoredButtons:hover {
+  transform: scale(1.1);
 }
 
 .my-custom-scrollbar {
