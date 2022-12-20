@@ -49,6 +49,10 @@ nav {
   color: #f9f5eb;
 }
 
+StoredButtons:hover {
+  
+}
+
 .my-custom-scrollbar {
   position: relative;
   height: 650px;
