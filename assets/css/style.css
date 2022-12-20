@@ -49,7 +49,8 @@ nav {
   color: #f9f5eb;
 }
 
-#StoredButtons:hover {
+/* created extra div to separate buttons */
+#StoredButton:hover {
   transform: scale(1.1);
 }
 
