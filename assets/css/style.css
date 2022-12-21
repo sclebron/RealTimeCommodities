@@ -49,11 +49,6 @@ nav {
   color: #f9f5eb;
 }
 
-/* created extra div to separate buttons */
-#StoredButton:hover {
-  transform: scale(1.1);
-}
-
 .my-custom-scrollbar {
   position: relative;
   height: 650px;
