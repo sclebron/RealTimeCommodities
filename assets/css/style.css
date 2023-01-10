@@ -52,11 +52,12 @@ nav {
 }
 
 @media (max-width: 992px) {
-  .header {
+  .container-fluid {
     width: 100%;
   }
 }
 /*
+to do - header and nav full width, fetch commodities button text goes over color, aside overlapping graph happens below 1200px, center footer
   nav {
     width: 100%;
   }
