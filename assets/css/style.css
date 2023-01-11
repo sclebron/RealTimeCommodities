@@ -12,6 +12,7 @@
   background-color: #1c3879;
   color: #f9f5eb;
   padding: 40px;
+  width: 100%;
 }
 
 nav {
@@ -52,8 +53,8 @@ nav {
 }
 
 @media (max-width: 992px) {
-  .container-fluid {
-    width: 100%;
+  html, body {
+    overflow-x: hidden;
   }
 }
 /*
