@@ -20,6 +20,11 @@ nav {
   padding: 8px;
 }
 
+#fetch-button {
+  background-color: #1c3879;
+  border-width: 0px;
+}
+
 .main-container {
   padding-top: 40px;
 }
@@ -52,11 +57,6 @@ nav {
   display: block;
 }
 
-#fetch-button {
-  background-color: #1c3879;
-  border-width: 0px;
-}
-
 @media (max-width: 992px) {
   html, body {
     overflow-x: hidden;
@@ -68,6 +68,12 @@ nav {
   #StoredButtons {
     display: flex;
     
+  }
+}
+
+@media (max-width: 750px) {
+  #fetch-button {
+
   }
 }
 
