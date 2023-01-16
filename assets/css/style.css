@@ -64,11 +64,10 @@ nav {
   }
 }
 
-@media (max-width: 520px) {
-    /*make it so saved buttons are on right side of screen */
+@media (max-width: 530px) {
+    /*make it so saved buttons are on right side of screen, right now made it so these buttons go over the others */
   #StoredButtons {
-    display: flex;
-    
+    position: relative;
   }
 }
 
