@@ -65,14 +65,13 @@ nav {
 }
 
 @media (max-width: 530px) {
-    /*make it so saved buttons are on right side of screen, right now made it so these buttons go over the others */
 #StoredButtons {
     margin-left: 30%;
   }
 }
 
 /*
-to do - aside overlapping graph happens below 1200px, buttons overlapping
+to do - aside overlapping graph happens below 1200px
 
 
 
