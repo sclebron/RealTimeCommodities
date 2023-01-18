@@ -82,6 +82,13 @@ nav {
   }
 }
 
+@media (max-width: 1400px) {
+  #chart_div {
+    width: 
+    height: 
+  }
+}
+
 /*
 to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it
 
