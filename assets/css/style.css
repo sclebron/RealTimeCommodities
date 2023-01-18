@@ -78,11 +78,12 @@ nav {
 @media (max-width: 1400px) {
   aside {
     box-sizing: content-box;
+    width: fit-content
   }
 }
 
 /*
-to do - aside overlapping graph happens below 1200px
+to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it
 
 
 
