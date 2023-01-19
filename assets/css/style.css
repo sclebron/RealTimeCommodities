@@ -61,6 +61,7 @@ nav {
 
 .table-wrapper-scroll-y {
   display: block;
+  width: fit-content;
 }
 
 @media (max-width: 992px) {
@@ -90,7 +91,7 @@ nav {
 }
 
 /*
-to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, current price and graph/chart div and aside are all cutting off when screen size shrinks
+to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, current price and graph/chart div are all cutting off when screen size shrinks
 
 
 
