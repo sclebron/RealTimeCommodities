@@ -40,6 +40,7 @@ nav {
     justify-content: space-evenly;
     color: #1c3879;
     font-weight: bolder;
+    width: fit-content;
 }
 
 #chart_div {
@@ -91,7 +92,7 @@ nav {
 }
 
 /*
-to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, current price and graph/chart div are all cutting off when screen size shrinks
+to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, graph/chart div are all cutting off when screen size shrinks, align things so they are all centered
 
 
 
