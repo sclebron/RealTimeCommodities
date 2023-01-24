@@ -43,20 +43,15 @@ nav {
     width: fit-content;
 }
 
-/* #chart_div {
+#chart_div {
   width: 900px;
   height: 500px;
-} */
+}
 
 /* #chart_div {
   width: fit-content;
   height: fit-content;
 } */
-
-#chart_div {
-  width: 50%;
-  height: 50%;
-}
 
 .footer {
   text-align: center;
@@ -94,15 +89,15 @@ nav {
   }
 }
 
-/* @media (max-width: 1400px) {
+@media (max-width: 1400px) {
   #chart_div {
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
   }
-} */
+}
 
 /*
-to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, graph/chart div are all cutting off when screen size shrinks, align things so they are all centered
+to do - aside overlapping graph happens below 1200px, shift graph to left, fix width of aside and center it, graph/chart div are all cutting off when screen size shrinks, align things so they are all centered, try changing chart div width and ehight to percentages in media query
 
 
 
