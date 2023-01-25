@@ -82,7 +82,7 @@ nav {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   aside {
     box-sizing: content-box;
     width: fit-content
