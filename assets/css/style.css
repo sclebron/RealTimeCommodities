@@ -43,10 +43,15 @@ nav {
     width: fit-content;
 }
 
-#chart_div {
+/* #chart_div {
   width: 900px;
   height: 500px;
-}
+} */
+
+/* #chart_div {
+  width: ;
+  height: ; --> keep width default, it seems to work but haven't tested on smaller screen sizes yet. mess around with height, currently too short, but only do percentages
+} */
 
 .footer {
   text-align: center;
@@ -91,11 +96,12 @@ nav {
   }
 }
 
-@media (max-width: 850px) {
+/* @media (max-width: 850px) {
   #chart_div {
     width: fit-content;
+    overflow: visible;
   }
-}
+} */
 
 
 
