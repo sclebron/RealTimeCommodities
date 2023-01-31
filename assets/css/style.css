@@ -50,7 +50,7 @@ nav {
 
 /* #chart_div {
   width: ;
-  height: ; --> keep width default, it seems to work but haven't tested on smaller screen sizes yet. mess around with height, currently too short, but only do percentages
+  height: ; --> keep width default, it seems to work but haven't tested on smaller screen sizes yet. mess around with height, currently too short, but only do percentages --> maybe change col-8 sizing, that seems to be correct width without cutting off
 } */
 
 .footer {
@@ -89,12 +89,12 @@ nav {
   }
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .col-8 {
     width: 90%;
     height: 90%;
   }
-}
+} */
 
 /* @media (max-width: 850px) {
   #chart_div {
