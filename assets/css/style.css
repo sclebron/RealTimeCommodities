@@ -50,7 +50,7 @@ nav {
 
 /* #chart_div {
   width: ;
-  height: ; --> keep width default, it seems to work but haven't tested on smaller screen sizes yet. mess around with height, currently too short, but only do percentages --> maybe change col-8 sizing, that seems to be correct width without cutting off
+  height: ; --> keep width default, it seems to work but haven't tested on smaller screen sizes yet. mess around with height, currently too short, but only do percentages --> maybe change col-8 sizing, that seems to be correct width without cutting off, still cuts off width - issue might be with div that has col-8 class I think this is causing the cut-off issues so mess around with changing that class and the divs in that area of the html
 } */
 
 .footer {
