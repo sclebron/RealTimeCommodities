@@ -30,6 +30,14 @@ nav {
   padding-top: 40px;
 }
 
+.row {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+}
+
 #showCommHeader {
     text-align: center;
     color: #1c3879;
