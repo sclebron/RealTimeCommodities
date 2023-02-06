@@ -29,6 +29,7 @@ nav {
 .main-container {
   padding-top: 40px;
   display: flex;
+  /*there is a large margin-right in main-container which is likely causing overlap onto graph and graph being cut off*/
 }
 
 .row {
