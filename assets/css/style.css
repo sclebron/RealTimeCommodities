@@ -28,13 +28,14 @@ nav {
 
 .main-container {
   padding-top: 40px;
+  display: flex;
 }
 
 .row {
   width: 70%;
 }
 
-aside {
+.table-wrapper-scroll-y my-custom-scrollbar {
   width: 30%;
 }
 
