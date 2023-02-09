@@ -56,10 +56,12 @@ nav {
 
 #graph {
   height: 500px;
+  width: fit-content;
 }
 
 #chart_div {
   height: 450px;
+  width:fit-content;
 }
 
 /* #chart_div {
