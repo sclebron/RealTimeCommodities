@@ -17,7 +17,7 @@ function getCommodityBySymbol(symbol, currency, date,forChart) {
   let dtt = fetch("https://commodities-api.com/api/open-high-low-close/" +
         date +
         "?wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j=" +
-        wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j +
+        "wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j" +
         base +
         symbols)
   .then(function(request){
