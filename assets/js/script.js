@@ -29,9 +29,10 @@ function removeOldElements(){
 function getCommodityBySymbol(symbol, currency, date, forChart) {
   //CANT HANDLE NULL INPUT
   var access_key =
-    //"ljdbuf72k16ob3i9jqscexucnfazsxi7l4deffx4d8w9ws8iyx7y0f2vp971"; // vian's key
-    "9hva9sagh62qb3fpu398otec0d2id5feemssw2t9vd7a61l4pcnwgtkhk4uz"; //James' key
-    //"5j9z3tm51x3q548swpzl0chbh4o5html88lm1htqpcbmdkwtgzl7f5boy4r2"; // raymond's key
+    // "ljdbuf72k16ob3i9jqscexucnfazsxi7l4deffx4d8w9ws8iyx7y0f2vp971"; // vian's key
+    // "9hva9sagh62qb3fpu398otec0d2id5feemssw2t9vd7a61l4pcnwgtkhk4uz"; //James' key
+    // "5j9z3tm51x3q548swpzl0chbh4o5html88lm1htqpcbmdkwtgzl7f5boy4r2"; // raymond's key
+    "wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j"; //sophie's key
   if (!symbol) {
     return;
   }

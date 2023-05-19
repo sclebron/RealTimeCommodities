@@ -8,15 +8,16 @@ google.charts.load('current', {'packages':['corechart']});
 
 //added parameter to supply the chart object that the data is for.
 function getCommodityBySymbol(symbol, currency, date,forChart) {
-  var access_key =
+  // var access_key =
     //"ljdbuf72k16ob3i9jqscexucnfazsxi7l4deffx4d8w9ws8iyx7y0f2vp971"; // vian's key
-      "5j9z3tm51x3q548swpzl0chbh4o5html88lm1htqpcbmdkwtgzl7f5boy4r2"; // raymond's key
+    // "5j9z3tm51x3q548swpzl0chbh4o5html88lm1htqpcbmdkwtgzl7f5boy4r2"; // raymond's key
+    // "wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j"; // sophie's key
   var base = "&base="+symbol;
   var symbols = "&symbols=" + currency;
   let dtt = fetch("https://commodities-api.com/api/open-high-low-close/" +
         date +
-        "?access_key=" +
-        access_key +
+        "?wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j=" +
+        wh1w5za68q5th8yc1ea4ecrmw7gok7158smp4lwzccm5v1iy58claih8822j +
         base +
         symbols)
   .then(function(request){
